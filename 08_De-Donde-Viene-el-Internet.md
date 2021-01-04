@@ -1,12 +1,12 @@
 # ¿De dónde viene el Internet?
 ⠀⠀
-El internet viene directamente de los cables, los cuales hacen que podamos establecer una conexión con otras computadoras.
+#### El internet viene directamente de los cables, los cuales hacen que podamos establecer una conexión con otras computadoras.
 ⠀
-La mayoría están dentro del mar. Internet backbone (mapa de infraestructura).
+#### La mayoría están dentro del mar. Internet backbone (mapa de infraestructura).
 ⠀
-Internet es una abreviación de Internetworking, se creó lso años 70 para referirse a los cables físicos y las computadoras que se conectan entre sí.
+#### Internet es una abreviación de Internetworking, se creó lso años 70 para referirse a los cables físicos y las computadoras que se conectan entre sí.
 ⠀
-Nace de un proyecto de investigación académico llamado ARPANET (Advanced Research Projects Agency NETwork), la intención era conectar computadoras para compartir información.
+#### Nace de un proyecto de investigación académico llamado ARPANET (Advanced Research Projects Agency NETwork), la intención era conectar computadoras para compartir información.
 ⠀
 Posteriormente empiezan a surgir los protocolos de Internet.
 

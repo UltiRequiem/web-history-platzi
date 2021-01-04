@@ -1,0 +1,26 @@
+<h1 id="render-tree">RENDER TREE</h1>
+<p>Es un árbol que une el DOM y CSSOM para renderizarlos, creando un código que pueda interpretar el navegador.</p>
+<p><strong>Proceso de renderizado</strong></p>
+<ul>
+<li><p>Bytes: El navegador coge todo el código y lo transforma en bytes.</p>
+</li>
+<li><p>Characters: El navegador transforma estos bytes en caracteres dependiendo de la codificación que le hemos pasado. Por ejemplo UTF-8.</p>
+</li>
+<li><p>Tokens: Ahora transforma dichos caracteres en tokens, identificando el significado de los caracteres relacionándolo a etiquetas que generan cierto tipo de contenido. W3C documenta todas la etiquetas.</p>
+</li>
+<li><p>Nodos: Después de saber el dicho orden de los tokens hará una transformación a los nodos, estos nodos son objetos. Dichos objetos son lo que el navegador sabe interpretar (Los elementos).</p>
+</li>
+<li><p>DOM: Ya cuando el navegador tiene todos los nodos los ordena en un árbol jerárquico donde cada objeto tendrá una posición dependiendo su etiqueta.</p>
+</li>
+<li><p>CSSROM: Transforma el CSS y une con el DOM. Asignando los estilos a cada elemento dentro del DOM.</p>
+</li>
+</ul>
+
+<h2 id="pasos-que-hace-el-navegador">Pasos que hace el navegador</h2>
+<ul>
+<li>Procesa el HTML y construye el DOM</li>
+<li>Procesa CSS y construye el CSSOM</li>
+<li>Junta el DOM y el CSSOM en el render tree</li>
+<li>Ejecuta el diseño en el render tree</li>
+<li>Pinta el nodo en la pantalla</li>
+</ul>

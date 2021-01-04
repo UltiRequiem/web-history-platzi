@@ -13,5 +13,9 @@ Ejemplos:
 ⠀
 ##### Cada pixel representa un cálculo de la computadora.
 
+### Links Utiles:
+- [Color-Hex](https://www.color-hex.com/)
+- [Color Hexa](https://www.colorhexa.com/)
+
 ## Infografia:
 ![Infografia Picture](https://i.imgur.com/AtExo7X.png)

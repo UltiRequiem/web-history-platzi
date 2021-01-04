@@ -1,4 +1,4 @@
-# Curso de Introducción a la Web: Historia y Funcionamiento de Internet
+## Curso de Introducción a la Web: Historia y Funcionamiento de Internet
 
 ## Datos del Profesor:
 - [Su Pagina Personal](http://diegodegranda.me/)

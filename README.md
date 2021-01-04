@@ -2,7 +2,7 @@
 [Este curso](https://platzi.com/clases/introweb) forma parete de la [Escuela de Desarrollo Web de Platzi](https://platzi.com/web/).
 En esta escuela aprenderás desde cero los fundamentos básicos como son JavaScript, HTML5, CSS3, herramientas más específicas como React, Vue, Angular y Node.js
 
-### Enlaces Importantes:
+## Enlaces Importantes:
  - [Historia de los Lenguajes de Programación](https://es.wikipedia.org/wiki/Historia_de_los_lenguajes_de_programaci%C3%B3n)
  - [Input–output model](https://en.wikipedia.org/wiki/Input%E2%80%93output_model)
  - [Binary Sistem](https://en.wikipedia.org/wiki/Binary_number)

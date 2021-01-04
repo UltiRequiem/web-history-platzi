@@ -4,6 +4,9 @@ En esta escuela aprenderás desde cero los fundamentos básicos como son JavaScr
 
 ## Datos del Profesor:
 **Diego de Granda** es Google Developer Expert en Tecnologías web y Design Sprint Master certificado por Google Ventures, con experiencia en desarrollo web, desarrollo de producto, comunidades, e innovación.
+
+Actualmente es Developer Advocate en Web Components y estándares web. Actualmente trabajo como Foundation Layer en Patzi, y soy líder de comunidades de Google en LATAM.
+
 - [Pagina Personal](http://diegodegranda.me/)
 - [GitHub](https://github.com/degranda)
 - [Twitter](https://twitter.com/degranda10)

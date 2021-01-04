@@ -7,8 +7,8 @@ En esta escuela aprenderás desde cero los fundamentos básicos como son JavaScr
 
 Actualmente es Developer Advocate en Web Components y estándares web. Actualmente trabajo como Foundation Layer en Patzi, y soy líder de comunidades de Google en LATAM.
 
-- [Pagina Personal](http://diegodegranda.me/)
-- [GitHub](https://github.com/degranda)
-- [Twitter](https://twitter.com/degranda10)
-- [Linkedin](https://www.linkedin.com/in/diegodegranda/)
-- [Instagram](https://www.instagram.com/degranda)
+- [Su Pagina Personal](http://diegodegranda.me/)
+- [Su GitHub](https://github.com/degranda)
+- [Su Twitter](https://twitter.com/degranda10)
+- [Su Linkedin](https://www.linkedin.com/in/diegodegranda/)
+- [Su Instagram](https://www.instagram.com/degranda)

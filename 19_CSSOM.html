@@ -1,0 +1,26 @@
+<p><strong>CSS Object Model (CSSOM)</strong></p>
+<p>Mientras el navegador construía el DOM de nuestra página simple, encontró una etiqueta de vínculo en el encabezado del documento que hacía referencia
+a una hoja de estilo CSS externa: style.css. Previendo que necesita este recurso para representar la página, envía de inmediato una solicitud de este recurso,
+que regresa con el siguiente contenido:</p>
+
+body { font-size: 16px }
+p { font-weight: bold }
+span { color: red }
+p span { display: none }
+img { float: right }
+
+<p>Podríamos haber declarado nuestros estilos directamente en el lenguaje de marcado HTML (integrado), pero mantener la independencia de nuestro lenguaje de marcado CSS respecto del HTML nos permite abordar el contenido y el diseño como dos temas independientes: los diseñadores pueden trabajar en CSS, los programadores en HTML, etc.
+url1
+Al igual que con HTML, debemos convertir las reglas de CSS recibidas en algo que el navegador comprenda y con lo que pueda trabajar. Por lo tanto, repetimos el proceso de HTML, pero para CSS en lugar de HTML:</p>
+<p><img src="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/cssom-construction.png?hl=es" alt="Bytes"></p>
+<p>Los bytes del CSS se convierten en caracteres, luego en tokens y nodos y, por último, se vinculan en una estructura de árbol conocida como “CSS Object Model” (CSSOM):</p>
+<p><img src="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/cssom-tree.png?hl=es" alt=""></p>
+<p>¿Por qué el CSSOM tiene una estructura de árbol? Al computar el conjunto final de estilos para cualquier objeto de la página, el navegador comienza por la regla aplicable más general para ese nodo (por ejemplo, si es un campo secundario del elemento body, se aplican todos los estilos de body) y luego define mejor y de manera recursiva los estilos computados aplicando reglas más específicas; es decir, las reglas se ordenan en cascada de forma “descendente”.
+url1
+Para ser más concretos, considera el árbol del CSSOM anterior. El texto de la etiqueta span que se coloca en el elemento body tiene un tamaño de fuente de 16 píxeles y es de color rojo; el orden de tamaño de fuente se encuentra en una jerarquía de órdenes descendentes desde el elemento body hasta el elemento span. No obstante, si la etiqueta span es el elemento secundario de una etiqueta paragraph § no se mostrará su contenido.
+url1
+Ten en cuenta también que el árbol anterior no es el árbol completo del CSSOM y en él solo se muestran los estilos que decidimos anular en nuestra hoja de estilos. Cada navegador proporciona un conjunto de estilos predeterminado, también conocidos como “estilos de usuario-agente”—lo que vemos cuando no proporcionamos los nuestros—y nuestros estilos simplemente anulan a los predeterminados (por ejemplo, estilos de IE predeterminados).
+url1
+Para averiguar cuánto demora el procesamiento de CSS, puedes registrar una línea de tiempo en DevTools y buscar el evento “Recalculate Style”: a diferencia del análisis del DOM, la línea de tiempo no muestra una entrada “Parse CSS” independiente y, en su lugar, captura el análisis y la construcción del árbol del CSSOM, además del cálculo recursivo de los estilos computados en este evento.</p>
+<p><img src="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/cssom-timeline.png?hl=es" alt=""></p>
+<p>Nuestras hojas de estilo simples demoran ~0,6ms en procesarse y afectan a 8 elementos de la página; no mucho, pero una vez más, no es gratis. Sin embargo, ¿de dónde vienen los 8 elementos? El CSSOM y el DOM son estructuras de datos independientes. Resulta que el navegador está escondiendo un paso importante. A continuación, hablaremos sobre el árbol de representación que vincula al DOM y el CSSOM.</p>

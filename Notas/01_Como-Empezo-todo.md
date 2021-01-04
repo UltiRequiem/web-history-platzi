@@ -30,5 +30,6 @@ Algunos Articulos sobre lenguajes de Programación:
 
 ## Algunas Infografias Utiles:
 
-![Historia de la Computación](https://static.platzi.com/media/user_upload/clase2_intro-06de2833-546a-4191-9ad9-3d887e2d3e07.jpg)
-![Lenguajes de Programación](https://static.platzi.com/media/user_upload/lenguajes_programacion-e3509598-22da-44ae-8d6f-f6aab0620f7f.jpg)
+![Historia de la Computación](https://i.imgur.com/ck2HSPR.jpg)
+![Lenguajes de Programación](https://i.imgur.com/NVtSzu3.jpg)
+![Tabla](https://i.imgur.com/q7fAxcS.png)

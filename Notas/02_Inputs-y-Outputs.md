@@ -15,6 +15,6 @@ La interacción que tenemos con las computadoras son las entradas y salidas.
 ![](https://i.giphy.com/media/3o7aCTFME70wndtRSg/giphy.webp)
 
 ### Articulos Interesantes:
-[What is the difference between an input and output device?](https://www.computerhope.com/issues/ch001355.html)
-[¿Qué son los dispositivos de entrada?](https://concepto.de/dispositivos-de-entrada/)
-[¿Qué son los dispositivos de Salida?](https://www.ejemplos.co/ejemplos-de-dispositivos-de-salida)
+ - [What is the difference between an input and output device?](https://www.computerhope.com/issues/ch001355.html)
+ - [¿Qué son los dispositivos de entrada?](https://concepto.de/dispositivos-de-entrada/)
+ - [¿Qué son los dispositivos de Salida?](https://www.ejemplos.co/ejemplos-de-dispositivos-de-salida)

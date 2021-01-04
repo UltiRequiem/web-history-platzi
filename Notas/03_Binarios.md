@@ -29,7 +29,9 @@
 - 2 → 1 (2 < 3, el dígito es 1 y utilizamos el resto 3 - 2 = 1)
 - 1 → 1 (1 = 1, el dígito es 1)
 ⠀
+
 **El resultado es 151(decimal) → 10010111(binario)**
+
 
 ## Cómo convertir números decimales a binarios:
 ![Ilustración](https://i.imgur.com/XIyQGf0.png)

@@ -1,7 +1,7 @@
 # ¿Cómo empezó todo?
 Todo empezo porque habia calculos que se intentaban resolver y tomaba demasiado tiempo que lo hagan las personas.
 
-#### El [Ábaco](https://es.wikipedia.org/wiki/%C3%81baco):
+#### [El Ábaco](https://es.wikipedia.org/wiki/%C3%81baco):
 Es considerado como la primera computadora. El uso del Ábaco consiste en facilitar las cuentas simples con un sitema decimal.Era muy Comunmente utilizado por comerciantes en el pasado.**(2000 A.C)**
 ⠀
 #### Calculadoras Mecanicas:
@@ -28,4 +28,7 @@ Algunos Articulos sobre lenguajes de Programación:
  - [La historia de los lenguajes de programación](https://computerhoy.com/reportajes/tecnologia/historia-lenguajes-programacion-428041#:~:text=El%20primer%20lenguaje%20de%20programaci%C3%B3n%2C%20el%20de%20Ada%20Lovelace,con%20la%20m%C3%A1quina%20de%20Babbage.)
 
 
-Algunas Infografias Utiles:
+## Algunas Infografias Utiles:
+
+![Historia de la Computación](https://static.platzi.com/media/user_upload/clase2_intro-06de2833-546a-4191-9ad9-3d887e2d3e07.jpg)
+![Lenguajes de Programación](https://static.platzi.com/media/user_upload/lenguajes_programacion-e3509598-22da-44ae-8d6f-f6aab0620f7f.jpg)

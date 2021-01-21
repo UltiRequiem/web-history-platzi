@@ -17,3 +17,5 @@ Actualmente es Developer Advocate en Web Components y estándares web. Actualmen
 - [Su Twitter](https://twitter.com/degranda10)
 - [Su Linkedin](https://www.linkedin.com/in/diegodegranda/)
 - [Su Instagram](https://www.instagram.com/degranda)
+
+## Apuntes [aquí](https://eliazbobadilla.github.io/Curso-de-Introduccion-a-la-Web-Historia-y-Funcionamiento-de-Internet/).

@@ -18,4 +18,4 @@ Actualmente es Developer Advocate en Web Components y estándares web. Actualmen
 - [Su Linkedin](https://www.linkedin.com/in/diegodegranda/)
 - [Su Instagram](https://www.instagram.com/degranda)
 
-Todos los apuntes se encuentran [aquí](https://ultirequiem.github.io/Introduccion-a-la-Web-Historia-y-Funcionamiento-de-Internet).
+Todos los apuntes se encuentran [aquí](https://ultirequiem.github.io/Introduccion-a-la-Web-Historia-y-Funcionamiento-de-Internet-Platzi).

@@ -1,0 +1,21 @@
+{
+  "name": "web-history-platzi",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx live-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UltiRequiem/web-history-platzi.git"
+  },
+  "keywords": [],
+  "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com> (https://github.com/UltiRequiem)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UltiRequiem/web-history-platzi/issues"
+  },
+  "homepage": "https://github.com/UltiRequiem/web-history-platzi#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

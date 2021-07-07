@@ -1,14 +1,50 @@
-<p>Cuando llega un script al navegador el JS Engine inicia un proceso el cual consta de:</p>
+<p>
+  Cuando llega un script al navegador el JS Engine inicia un proceso el cual
+  consta de:
+</p>
 <ul>
-<li>Recibir el código como un flujo de bytes UTF-16 y pasarlo a un decodificador de flujo de bytes (el cual hace parte del motor).
-<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Xs5OQmGX--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/pv4y4w0doztvmp8ei0ki.gif" alt=""></li>
-<li>El parser toma el código y lo descompone en tokens (los tokens son elementos de js como: let, new, símbolos de operaciones, functions, promises).
-<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ID8wDIAy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/bic727jhzu0i8uep8v0k.gif" alt=""></li>
-<li>Gracias a el anterior parseo se genera una estructura de datos en forma de árbol, o Abstract Syntax Tree (AST).
-<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6IHw1BUH--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/sgr7ih6t7zm2ek28rtg6.gif" alt=""></li>
-<li>El intérprete recorre el AST y va generando el bytecode.
-<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--HlXdsZRx--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/i5f0vmcjnkhireehicyn.gif" alt=""></li>
-<li>El optimizing compiler optimiza el código bytecode a machine code y se reemplaza el código base.
-<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--gsKbgaq7--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/ongt4qftovd82sp2vihk.gif" alt=""></li>
-<li>Nota: El optimizing compiler encuentra los puntos donde el código se puede optimizar, no lo hace con todo el código. Normalmente optimiza el código que se repite varias veces, como por ejemplo un ciclo for muy largo.</li>
+  <li>
+    Recibir el código como un flujo de bytes UTF-16 y pasarlo a un decodificador
+    de flujo de bytes (el cual hace parte del motor).
+    <img
+      src="https://res.cloudinary.com/practicaldev/image/fetch/s--Xs5OQmGX--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/pv4y4w0doztvmp8ei0ki.gif"
+      alt=""
+    />
+  </li>
+  <li>
+    El parser toma el código y lo descompone en tokens (los tokens son elementos
+    de js como: let, new, símbolos de operaciones, functions, promises).
+    <img
+      src="https://res.cloudinary.com/practicaldev/image/fetch/s--ID8wDIAy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/bic727jhzu0i8uep8v0k.gif"
+      alt=""
+    />
+  </li>
+  <li>
+    Gracias a el anterior parseo se genera una estructura de datos en forma de
+    árbol, o Abstract Syntax Tree (AST).
+    <img
+      src="https://res.cloudinary.com/practicaldev/image/fetch/s--6IHw1BUH--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/sgr7ih6t7zm2ek28rtg6.gif"
+      alt=""
+    />
+  </li>
+  <li>
+    El intérprete recorre el AST y va generando el bytecode.
+    <img
+      src="https://res.cloudinary.com/practicaldev/image/fetch/s--HlXdsZRx--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/i5f0vmcjnkhireehicyn.gif"
+      alt=""
+    />
+  </li>
+  <li>
+    El optimizing compiler optimiza el código bytecode a machine code y se
+    reemplaza el código base.
+    <img
+      src="https://res.cloudinary.com/practicaldev/image/fetch/s--gsKbgaq7--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/ongt4qftovd82sp2vihk.gif"
+      alt=""
+    />
+  </li>
+  <li>
+    Nota: El optimizing compiler encuentra los puntos donde el código se puede
+    optimizar, no lo hace con todo el código. Normalmente optimiza el código que
+    se repite varias veces, como por ejemplo un ciclo for muy largo.
+  </li>
 </ul>

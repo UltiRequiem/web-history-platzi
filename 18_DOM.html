@@ -1,41 +1,76 @@
 <h1 id="dom">DOM</h1>
-<p>Todas páginas web están formadas por html, css y Javascript e independienemente de la cantidad de cada uno de ellos, los navegadores siempre siguen el mismo proceso para conseguir tanto el contenido como la manera en que éste se ha de mostrar al usuario:</p>
+<p>
+  Todas páginas web están formadas por html, css y Javascript e
+  independienemente de la cantidad de cada uno de ellos, los navegadores siempre
+  siguen el mismo proceso para conseguir tanto el contenido como la manera en
+  que éste se ha de mostrar al usuario:
+</p>
 <ul>
-<li>🔸 Generar el árbol DOM a partir del html.</li>
-<li>🔸 Generar el CSSOM Tree a partir del css.</li>
-<li>🔸 Generar el Render Tree con la combinación del DOM y 🔸 CSSOM</li>
-<li>🔸 Calcular la disposición o layout de todos los nodos.</li>
-<li>🔸 Pintar los nodos del Render Tree.</li>
+  <li>🔸 Generar el árbol DOM a partir del html.</li>
+  <li>🔸 Generar el CSSOM Tree a partir del css.</li>
+  <li>🔸 Generar el Render Tree con la combinación del DOM y 🔸 CSSOM</li>
+  <li>🔸 Calcular la disposición o layout de todos los nodos.</li>
+  <li>🔸 Pintar los nodos del Render Tree.</li>
 </ul>
-<p><img src="https://static.platzi.com/media/user_upload/5-pasos-que-siguen-los-navegadores-para-pintar-el-contenido-1-f113114a-adf2-4b08-9921-ac912c0c2e52.jpg" alt="Pasos"></p>
+<p>
+  <img
+    src="https://static.platzi.com/media/user_upload/5-pasos-que-siguen-los-navegadores-para-pintar-el-contenido-1-f113114a-adf2-4b08-9921-ac912c0c2e52.jpg"
+    alt="Pasos"
+  />
+</p>
 
-<p><strong>El DOM </strong>
-Es el árbol de nodos que representa los contenidos de la página o aplicación web. Estos contenidos están determinados por el HTML y, aunque se parezca bastante al DOM, no són lo mismo.</p>
+<p>
+  <strong>El DOM </strong> Es el árbol de nodos que representa los contenidos de
+  la página o aplicación web. Estos contenidos están determinados por el HTML y,
+  aunque se parezca bastante al DOM, no són lo mismo.
+</p>
 
-<p><strong>¿Cómo se genera el árbol DOM?</strong>
-El DOM se genera a partir del fichero con extensión .html y sigue distintos pasos para generarse:</p>
+<p>
+  <strong>¿Cómo se genera el árbol DOM?</strong> El DOM se genera a partir del
+  fichero con extensión .html y sigue distintos pasos para generarse:
+</p>
 <ul>
-<li>🔹 Convertir los bytes a carácteres.</li>
-<li>🔹 Pasar de carácteres a tokens.</li>
-<li>🔹 Generar los nodos.</li>
-<li>🔹 Construir el árbol DOM.</li>
-</ul>
-
-En caso de que el navegador detecte un ```<script>``` no declarado como asíncrono en el <head> de la página, la creación del DOM será bloqueada hasta que el Javascript sea descargado y ejecutado. Por eso es importante declarar los scripts como asíncronos.
-
-<p><img src="https://static.platzi.com/media/user_upload/5-pasos-que-siguen-los-navegadores-para-pintar-el-contenido-2-25a4e647-14ab-4132-b68c-e459696625ef.jpg" alt="IMG"></p>
-
-
-<p>...............................................................................................................</p>
-
-<h3>Los pasos para hacer la transformación de HTML a DOM</h3>
-
-<ul>
-<li>Transforma el código en bytes</li>
-<li>Transforma a algunos caracteres (UTF-8)</li>
-<li>Transforma a tokens (especificación W3C)</li>
-<li>Transformación a nodos (etiquetas en círculo y  contenido en la otra figura)</li>
-<li>Transformación a DOM (pone los elementos en un árbol)</li>
+  <li>🔹 Convertir los bytes a carácteres.</li>
+  <li>🔹 Pasar de carácteres a tokens.</li>
+  <li>🔹 Generar los nodos.</li>
+  <li>🔹 Construir el árbol DOM.</li>
 </ul>
 
-<p><img src="https://static.platzi.com/media/user_upload/Untitled%20%2815%29-b5329ddf-fafd-4c0a-a279-f4074a848de4.jpg" alt="DOM"></p>
+En caso de que el navegador detecte un ```script``` no declarado como asíncrono
+en el
+<head>
+  de la página, la creación del DOM será bloqueada hasta que el Javascript sea
+  descargado y ejecutado. Por eso es importante declarar los scripts como
+  asíncronos.
+
+  <p>
+    <img
+      src="https://static.platzi.com/media/user_upload/5-pasos-que-siguen-los-navegadores-para-pintar-el-contenido-2-25a4e647-14ab-4132-b68c-e459696625ef.jpg"
+      alt="IMG"
+    />
+  </p>
+
+  <p>
+    ...............................................................................................................
+  </p>
+
+  <h3>Los pasos para hacer la transformación de HTML a DOM</h3>
+
+  <ul>
+    <li>Transforma el código en bytes</li>
+    <li>Transforma a algunos caracteres (UTF-8)</li>
+    <li>Transforma a tokens (especificación W3C)</li>
+    <li>
+      Transformación a nodos (etiquetas en círculo y contenido en la otra
+      figura)
+    </li>
+    <li>Transformación a DOM (pone los elementos en un árbol)</li>
+  </ul>
+
+  <p>
+    <img
+      src="https://static.platzi.com/media/user_upload/Untitled%20%2815%29-b5329ddf-fafd-4c0a-a279-f4074a848de4.jpg"
+      alt="DOM"
+    />
+  </p>
+</head>
